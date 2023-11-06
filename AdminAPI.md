@@ -1,4 +1,4 @@
-# ACA-Py Administration API
+##ACA-Py!Administration*API
 
 ## Using the OpenAPI (Swagger) Interface
 
@@ -10,7 +10,7 @@ To see the specifics of the supported endpoints, as well as the expected request
 
 To invoke a specific method:
 
-* Scroll to and find that endpoint;
+  Scroll to and find that endpoint;
 * Click on the endpoint name to expand its section of the UI;
 * Click on the Try it out button;
 * Fill in any data necessary to run the command;
@@ -134,3 +134,4 @@ The APIs should return the following HTTP status:
 ...and should not return:
 
 * HTTP 500 with a stack trace due to an untrapped error (we should handle error conditions with a 400 or 404 response and catch errors, providing a meaningful error message)
+ 
